@@ -51,8 +51,8 @@ git clone https://github.com/your-username/global-layoffs-data-analysis.git
 
 3. Run the scripts
 ```sql
-source Data_Cleaning_Project.sql
-source Layoffs_Analysis.sql
+source data_cleaning.sql
+source layoffs_analysis.sql
 ```
 
 ## Future Enhancements
