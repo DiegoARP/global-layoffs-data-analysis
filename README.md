@@ -1,7 +1,7 @@
 ## Global Layoffs Data Analysis
 
 ## Overview
-This project focuses on cleaning and analyzing global company layoffs data using SQL. The analysis includes data from various industries and locations, providing insights into worldwide workforce reduction trends.
+This project focuses on cleaning and analyzing global company layoffs data using SQL. The analysis includes data from various industries and locations, providing insights into worldwide workforce reduction trends. eatures include data standardization, duplicate handling, and comprehensive cleaning procedures for analyzing workforce reduction trends worldwide.
 
 ## Table Structure
 The main table contains the following columns:
