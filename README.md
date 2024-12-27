@@ -1,7 +1,7 @@
-## Global Layoffs Data Analysis
+# Global Layoffs Data Analysis
 
 ## Overview
-This project focuses on cleaning and analyzing global company layoffs data using SQL. The analysis includes data from various industries and locations, providing insights into worldwide workforce reduction trends. eatures include data standardization, duplicate handling, and comprehensive cleaning procedures for analyzing workforce reduction trends worldwide.
+This project focuses on cleaning and analyzing global company layoffs data using SQL. The analysis includes comprehensive data from various industries and locations, providing insights into worldwide workforce reduction trends.
 
 ## Table Structure
 The main table contains the following columns:
@@ -15,34 +15,31 @@ The main table contains the following columns:
 - Country
 - Funds Raised (Millions)
 
-## Data Cleaning Process
+## Project Components
+
+### 1. Data Cleaning Process
 The cleaning process involves several key steps:
+- Duplicate Removal
+- Data Standardization
+- NULL Value Handling
+- Schema Optimization
 
-1. **Duplicate Removal**
-   - Identification and removal of duplicate records
-   - Use of ROW_NUMBER() for duplicate detection
-
-2. **Data Standardization**
-   - Company name cleaning
-   - Industry name standardization
-   - Country name formatting
-   - Date format conversion
-
-3. **NULL Value Handling**
-   - Removal of records with no layoff information
-   - Industry field standardization
-   - Missing value imputation where possible
-
-4. **Schema Optimization**
-   - Proper data type conversion
-   - Removal of unnecessary columns
+### 2. Data Analysis
+The analysis covers multiple aspects:
+- Overview Statistics
+- Temporal Analysis (2020-2023)
+- Company-specific Analysis
+- Geographic Distribution
+- Industry Trends
+- Stage-based Analysis
+- Advanced Analytics (Rankings & Rolling Totals)
 
 ## Tech Stack
 - MySQL
 
 ## Files in Repository
-- `Data_Cleaning_Project.sql`: Main SQL cleaning script
-- Additional analysis files (coming soon)
+- `data_cleaning.sql`: Main cleaning script
+- `layoffs_analysis.sql`: Comprehensive analysis queries
 
 ## Getting Started
 1. Clone the repository
@@ -50,18 +47,25 @@ The cleaning process involves several key steps:
 git clone https://github.com/your-username/global-layoffs-data-analysis.git
 ```
 
-2. Import the SQL script into your MySQL environment
+2. Import the SQL scripts into your MySQL environment
 
-3. Run the cleaning script
+3. Run the scripts
 ```sql
-source data_cleaning.sql
+source Data_Cleaning_Project.sql
+source Layoffs_Analysis.sql
 ```
 
 ## Future Enhancements
-- Addition of data visualizations
-- Time series analysis of layoff trends
-- Industry-specific insights
-- Regional comparison analysis
+- Data Visualizations:
+  - Interactive dashboards
+  - Time series analysis
+  - Geographic distribution maps
+  - Industry trend charts
+- Additional Analysis:
+  - Predictive modeling
+  - Industry-specific deep dives
+  - Regional comparison studies
+  - Economic correlation analysis
 
 ## Contributing
 Feel free to fork this repository and submit pull requests. All contributions are welcome!
